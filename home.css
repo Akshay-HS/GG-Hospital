@@ -73,6 +73,8 @@ body {
   position: absolute;
   bottom: 110px;
   left: 200px;
+  width: fit-content;
+  border-radius: 25px;
 }
 #play {
   position: absolute;
@@ -103,6 +105,10 @@ body {
   width: 70%;
   padding-bottom: 50px;
   box-shadow: 1px 10px 10px 3px rgb(211, 211, 211);
+}
+#form-button
+{
+  width: 30%;
 }
 
 h2 {
@@ -313,9 +319,17 @@ button {
   display: flex;
   padding-bottom: 10px;
 }
+#i-head {
+  padding-left: 100px;
+  margin-top: -50px;
+  display: flex;
+  padding-bottom: 10px;
+}
+
 .i-head {
   padding: 30px;
   width: 25%;
+  margin-left: 390px;
 }
 #int-desc {
   font-size: small;
